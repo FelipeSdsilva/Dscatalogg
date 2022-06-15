@@ -10,7 +10,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/form">
+        <Route path="/dashboard">
           <Route path=":movieId" element={<DashBoard />} />
         </Route>
       </Routes>

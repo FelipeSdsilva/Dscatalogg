@@ -4,7 +4,6 @@ const SignIn = () => {
     return (
         <>
             <div className="container">
-
                 <main className="form-signin w-100 m-auto">
                     <form>
                         <h1 className="h3 mb-3 fw-normal">Entrar</h1>
@@ -25,7 +24,6 @@ const SignIn = () => {
                         <button className="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
                     </form>
                 </main>
-
             </div>
         </>
     );
